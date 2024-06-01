@@ -1,0 +1,44 @@
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        margin-top: 100px;
+        font-size: 82px;
+        text-shadow: $h1s;
+    }
+
+    span{
+        margin-top: 5px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 5px;
+        text-transform: uppercase;
+    }
+
+    h3{
+        text-shadow: $h1s;
+        font-size: 18px;
+        color: $color5;
+    }
+
+    h2{
+        text-shadow: $as;
+        box-shadow: $as;
+        color: $color5;
+        font-size: 22px;
+        background: $color2;
+        border-radius: 10px;
+        padding: 2px 6px 1px 6px;
+        transition: $timer3;
+    }
+
+    h2:hover{
+        color: rgb(255, 255, 255);
+        background: $color3;
+    }
+
+    
+}

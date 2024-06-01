@@ -1,21 +1,32 @@
+// data
+@import "./data/palett-colors";
+@import "./data/transitions";
+@import "./data/shadows";
+@import "./data/fonts";
+
 *{
     padding: 0;
     margin: 0;
     user-select: none;
     }
 
-// data
+.main{
+    background: linear-gradient($color4, $color5);
+}
 
-@import "./data/palett-colors";
-@import "./data/transitions";
-@import "./data/shadows";
-@import "./data/fonts";
+.header-container{
+    background: #fff;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1400px;
+    box-shadow: $imgs;
+}
 
 //navbar
-
-@import "../func/navbar/navbar"
+@import "../func/navbar/navbar";
 
 //section_about
+@import "../func/section_about/section_about";
 
 //section_Tutorial
 

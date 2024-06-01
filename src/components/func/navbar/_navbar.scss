@@ -1,39 +1,37 @@
 .navbar-container{
-    margin: 40px 20px 40px 20px;
-    background: #fff;
-    display: flex;
-    gap: 20px;
-
-    li{
-        margin: 10px;
-        list-style: none;
-        a{
-            text-decoration: none;
-            text-transform: uppercase;
-            color:#000;
-            transition: $timer3;
-            text-shadow: $as;
-            font-size: 22px;
-        }
-
-        a:hover{
-            color: $color3;
-        }
-    }
+    background: #ffffff;
 }
 
 .show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 
+    li{
+        margin: 20px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color:$color4;
+        transition: $timer3;
+        font-size: 14px;
+    }
+    a:hover{
+        color: $color3;
+    }
 }
 
+
 .btn-change{
-    display: flex;
+    display: none;
     position: absolute;
     top: 10px;
     left: 10px;
     color: #000;
     font-size: 32px;
-}
-
-@media (max-width: 800px){
 }
