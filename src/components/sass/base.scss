@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    }
+
+// data
+
+@import "./data/palett-colors";
+@import "./data/transitions";
+@import "./data/shadows";
+@import "./data/fonts";
+
+//navbar
+
+@import "../func/navbar/navbar"
+
+//section_about
+
+//section_Tutorial
+
+//setion_files
