@@ -2,7 +2,6 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useState } from "react"
-import BtnBlack from '../../database/button_basic_black/btn'
 
 library.add(fas)
 
@@ -23,7 +22,6 @@ const changeClass = () => {
             <li><a href="./">About Project</a></li>
             <li><a href="./">How to use</a></li>
             <li><a href="./">All files</a></li>
-            <li><BtnBlack/></li>
           </div>
         </nav>
         

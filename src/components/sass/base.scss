@@ -16,7 +16,7 @@
 
 .header-container{
     background: #fff;
-    height: 100vh;
+    height: 100%;
     margin: 0 auto;
     max-width: 1400px;
     box-shadow: $imgs;
@@ -25,9 +25,11 @@
 //navbar
 @import "../func/navbar/navbar";
 
-//section_about
+//Section_About
 @import "../func/section_about/section_about";
 
-//section_Tutorial
+//Section_Projects
 
-//setion_files
+@import "../func/section_projetcs/section_projects";
+
+//Setion_files

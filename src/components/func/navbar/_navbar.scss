@@ -13,6 +13,7 @@
         list-style: none;
         display: flex;
         align-items: center;
+         
     }
     a{
         text-decoration: none;
@@ -20,10 +21,16 @@
         color:$color4;
         transition: $timer3;
         font-size: 14px;
+        margin-top: 6px;
+        padding-bottom: 3px;
+        border-bottom: 2px solid white;
+        transition: border-bottom 0.3s;
     }
     a:hover{
         color: $color3;
+        border-bottom: 2px solid $color3;
     }
+
 }
 
 
