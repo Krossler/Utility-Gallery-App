@@ -1,0 +1,14 @@
+.section-options-container{
+    gap: 20px;
+    
+    li{
+        list-style: none;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    li:hover{
+        border-bottom: 2px solid black;
+        padding-bottom: 10px;
+    }
+}

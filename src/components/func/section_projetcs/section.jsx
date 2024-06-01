@@ -1,10 +1,10 @@
-import "./section"
+import Section_Optins from "../section_projects_navbar/section";
 
 function Section_Projects() {
     return (
       <div>
         <section className="section-projects-container">
-            hola mundo
+          <Section_Optins/>
         </section>
       </div>
     );

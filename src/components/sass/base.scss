@@ -18,7 +18,7 @@
     background: #fff;
     height: 100%;
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1300px;
     box-shadow: $imgs;
 }
 
@@ -28,8 +28,10 @@
 //Section_About
 @import "../func/section_about/section_about";
 
-//Section_Projects
+//Section_Options
+@import "../func/section_projects_navbar/section_options";
 
+//Section_Projects
 @import "../func/section_projetcs/section_projects";
 
 //Setion_files
